@@ -1,0 +1,63 @@
+.primary_heading {
+  text-transform: uppercase;
+  font-size: 3rem !important;
+}
+
+.flexed-column {
+  display: flex !important;
+  width: 100%;
+  flex-flow: column !important;
+}
+
+.row-centered {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.column-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexed-heading {
+  width: 100%;
+  text-align: center;
+  color: $THEME_COLOR;
+}
+
+.themeColor {
+  color: $THEME_COLOR;
+}
+.themedBg {
+  background-color: $THEME_COLOR !important;
+}
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 2.5rem !important;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 5.5rem !important;
+}
+.u-margin-top-small {
+  margin-top: 1rem !important;
+}
+
+.u-margin-top-medium {
+  margin-top: 2.5rem !important;
+}
+
+.u-margin-top-big {
+  margin-top: 5.5rem !important;
+}

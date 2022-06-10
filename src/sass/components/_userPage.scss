@@ -1,0 +1,13 @@
+.userPage {
+  &__Nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    &__Logo {
+      h2 {
+        color: $THEME_COLOR;
+      }
+    }
+  }
+}

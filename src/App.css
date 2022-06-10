@@ -1,0 +1,364 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  padding-bottom: 2rem;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-family: "Lato", sans-serif;
+}
+
+.primary_heading {
+  text-transform: uppercase;
+  font-size: 3rem !important;
+}
+
+.flexed-column {
+  display: flex !important;
+  width: 100%;
+  flex-flow: column !important;
+}
+
+.row-centered {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexed-heading {
+  width: 100%;
+  text-align: center;
+  color: #4ec1fc;
+}
+
+.themeColor {
+  color: #4ec1fc;
+}
+
+.themedBg {
+  background-color: #4ec1fc !important;
+}
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 2.5rem !important;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 5.5rem !important;
+}
+
+.u-margin-top-small {
+  margin-top: 1rem !important;
+}
+
+.u-margin-top-medium {
+  margin-top: 2.5rem !important;
+}
+
+.u-margin-top-big {
+  margin-top: 5.5rem !important;
+}
+
+.home {
+  padding: 0 2rem;
+}
+.home__content__dateRanges {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__content__dateRanges button {
+  background-color: #4ec1fc;
+  border: none;
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 3rem;
+  cursor: pointer;
+  color: white;
+}
+.home__content__dateRanges input {
+  background-color: white !important;
+}
+
+.diaryOpen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.diaryOpen__diary {
+  width: 40rem;
+  min-height: 60rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 2rem 2rem;
+}
+.diaryOpen__diary__locationInfo {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+.diaryOpen__diary__logo {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.diaryOpen__diary__logo img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.diaryOpen__diary__headings {
+  text-align: center;
+}
+.diaryOpen__diary__headings * {
+  font-family: "Water Brush", cursive !important;
+  letter-spacing: 0.4rem;
+}
+.diaryOpen__diary__content {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.3rem;
+}
+.diaryOpen__diary__content p {
+  margin-top: 1rem;
+}
+
+.flexed {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userHome {
+  padding: 1rem 2rem;
+}
+.userHome__sideBar {
+  background-color: white;
+  border-radius: 1rem;
+}
+.userHome__sideBar__item {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #4ec1fc;
+}
+
+.authPage {
+  width: 100%;
+  height: 100vh;
+  background-color: #4ec1fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.authPage__box {
+  background-color: #f3f3f3;
+  padding: 2rem 2rem;
+  border-radius: 0.5rem;
+}
+.authPage__box__content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+}
+
+.diary {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.diary__card {
+  width: 20rem;
+  height: 25rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-flow: column;
+  cursor: pointer;
+  position: relative;
+}
+.diary__card__image {
+  width: 100%;
+  display: flex;
+  height: 13rem;
+  align-items: flex-end;
+  justify-content: center;
+}
+.diary__card__image img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.diary__card__content {
+  width: 100%;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.diary__card__views {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.userPage__Nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.userPage__Nav__Logo h2 {
+  color: #4ec1fc;
+}
+
+.slide-container {
+  width: 100%;
+  height: 100%;
+}
+.slide-container .each-fade {
+  width: 100%;
+  height: 100%;
+}
+.slide-container .each-fade img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.form__input {
+  width: 100%;
+  margin-top: 2rem !important;
+}
+
+.medium-theme-button {
+  width: 20rem !important;
+  padding: 1rem 0 !important;
+  font-size: 1.25rem !important;
+}
+
+.themedIconButton {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #4ec1fc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.searchInputContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.searchInputContainer .searchInput {
+  border: none;
+  outline: none;
+  height: 3rem;
+  border-radius: 0.25rem;
+  width: 25rem;
+  padding: 1rem 1rem;
+}
+
+.customInput {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  margin-top: 1rem;
+}
+.customInput h2 {
+  color: #4ec1fc;
+}
+.customInput input {
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 1rem 1rem;
+  outline: none;
+}
+.customInput textarea {
+  border: none;
+  background-color: #f3f3f3;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 1rem 1rem;
+  outline: none;
+}
+
+.hrLine {
+  margin-top: 1rem;
+}
+
+.modal {
+  border-radius: 1rem;
+  overflow: hidden;
+  padding-bottom: 1rem;
+}
+.modal__title {
+  width: 100%;
+  height: 4rem;
+  background-color: #4ec1fc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__content {
+  padding: 1rem 4rem;
+}
+
+.smallBtn {
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #4ec1fc;
+  color: white;
+}

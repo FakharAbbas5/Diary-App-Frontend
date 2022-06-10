@@ -1,0 +1,22 @@
+.authPage {
+	width: 100%;
+	height: 100vh;
+	background-color: $THEME_COLOR;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__box {
+		background-color: #f3f3f3;
+		padding: 2rem 2rem;
+		border-radius: 0.5rem;
+		&__content {
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			text-align: center;
+			&__form {
+				// margin-top: 1rem;
+			}
+		}
+	}
+}

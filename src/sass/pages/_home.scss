@@ -1,0 +1,23 @@
+.home {
+  padding: 0 2rem;
+  &__content {
+    &__dateRanges {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        background-color: $THEME_COLOR;
+        border: none;
+        border-radius: 0.5rem;
+        width: 8rem;
+        height: 3rem;
+        cursor: pointer;
+        color: white;
+      }
+      input {
+        background-color: white !important;
+      }
+    }
+  }
+}
